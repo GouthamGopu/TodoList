@@ -1,0 +1,32 @@
+body{
+  font-family: Arial;
+}
+button{
+  color: white;
+  font-size: 15px;
+  padding:8px 15px;
+  cursor: pointer;
+  border: none;
+  
+}
+.add{
+  background-color: green;
+}
+.delete{
+  background-color: darkred;
+  margin-bottom: 10px;
+}
+.todo-row,.todo-input-row{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  margin-top: 10px;
+  align-items: stretch;
+}
+.todo-row{
+  align-items: center;
+}
+.todo,.duedate-input{
+  padding: 4px 10px;
+  font-size: 15px;
+}
