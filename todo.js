@@ -37,27 +37,6 @@ let array=[];
           `
           todolist += string; 
         });
-        /*
-        for(let i = 0; i< array.length;i++){
-          let valueobject = array[i];
-          let {name , dueDate} =valueobject;
-          let string = `
-            <div>
-              ${name}
-            </div>
-            <div>
-              ${dueDate}
-            </div>
-            <button class="delete" onclick="
-              array.splice(${i},1);
-              rendertodo();">
-                Delete
-            </button>
-              
-          `
-          todolist += string;
-        }
-        */
 
 
         element2.innerHTML= todolist;
